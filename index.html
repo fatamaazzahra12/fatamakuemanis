@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kue Manis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1 class="logo">KueManis</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#order">Pesan</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="section home">
+        <h2>Selamat Datang di Toko Kue Manis 🍰</h2>
+        <p>Kue lezat, lembut, dan fresh dari oven setiap hari!</p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section">
+        <h2>Menu Kue</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="chesecake.jpg" alt="Cheesecake">
+                <h3>Cheesecake</h3>
+                <p>Rp 35.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+            <div class="card">
+                <img src="matcha aaaa.jpg" alt="matcha crepe">
+                <h3>Matcha Mille Crêpe Cake</h3>
+                <p>Rp 40.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+            <div class="card">
+                <img src="swis rol.jpg" alt="swis rol">
+                <h3>strawberry Swiss roll</h3>
+                <p>Rp 24.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+           <div class="card">
+                <img src="tiramisu.jpg" alt="Tiramisu">
+                <h3>Tiramisu cake</h3>
+                <p>Rp 35.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+             <div class="card">
+                <img src="cromboloni.jpg" alt="cromboloni">
+                <h3> Cromboloni</h3>
+                <p>Rp 47.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+            <div class="card">
+                <img src="bento.jpg" alt="bentocake">
+                <h3>Bluberry bento cake</h3>
+                <p>Rp 48.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+           <div class="card">
+                <img src="redveelvet.jpg" alt="Redvelvet">
+                <h3>Redvelvet cake</h3>
+                <p>Rp 32.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+            <div class="card">
+                <img src="lotus.jpeg" alt="lotus">
+                <h3>Lotus Biscoff Cheesecake</h3>
+                <p>Rp 40.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+             <div class="card">
+                <img src="macaron.jpeg" alt="macaron">
+                <h3> Macaron</h3>
+                <p>Rp 35.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+            <div class="card">
+                <img src="cake buah.jpg" alt="buah cake">
+                <h3>Dasi, Ol Cake</h3>
+                <p>Rp 37.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+           <div class="card">
+                <img src="oreo ooooo.jpg" alt="oreo">
+                <h3>Oreo cake</h3>
+                <p>Rp 32.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+           
+            <div class="card">
+                <img src="brownis.jpg" alt="coklat">
+                <h3>Chocolate Fudge Cake</h3>
+                <p>Rp 32.000</p>
+                <button class="btn">Masukkan Keranjang</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section id="review" class="section review">
+        <h2>Review Pelanggan</h2>
+    
+
+        <div class="review-container">
+            <div class="review-box">
+                <p>"Kuennya lembut & enak banget, anak saya suka!"</p>
+                <span>- Dina</span>
+            </div>
+
+            <div class="review-box">
+                <p>"maatcha nya ada pait paitnya sukaadeh, manisnya pas. Recommended!"</p>
+                <span>- Mela</span>
+            </div>
+
+            <div class="review-box">
+                <p>"Penjualnya cantik, kualitasnya premium"</p>
+                <span>- Ivan</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM PESAN -->
+    <section id="order" class="section order">
+        <h2>Form Pemesanan</h2>
+
+        <form>
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama anda" required>
+
+            <label>Nomor Telepon</label>
+            <input type="tel" placeholder="Masukkan nomor telepon" required>
+
+            <label>Alamat Lengkap</label>
+            <textarea placeholder="Masukkan alamat lengkap" required></textarea>
+
+            <label>Pilih Kue</label>
+            <select required>
+                <option value="">-- Pilih Kue --</option>
+                <option>Cheesecake - Rp 35.000</option>
+                <option>Matcha mile crepe cake - Rp 40.000</option>
+                <option>Strawberry Swiss roll - Rp 24.000</option>
+                <option>Tiramisu cake - Rp 35.000</option>
+                <option>Cromboloni - Rp 47.000</option>
+                <option>Bluberry bento cake - Rp 48.000</option>
+                <option>Redvelvet cake - Rp 32.000</option>
+                <option>Lotus Biscoff Cheesecake - Rp 40.000</option>
+                <option>Macaron - Rp 35.000</option>
+                <option>Dasi, Ol Cake - Rp 37.000</option>
+                <option>Ore cake - Rp 32.000</option>
+                <option>Chocolate Fudge Cake - Rp 32.000</option>
+            </select>
+
+            <button class="btn">Masukkan Keranjang</button>
+        </form>
+    </section>
+<footer class="footer">
+    <p>Fatama aazahra     XI TKJ 3      </p>
+    </footer>
+   
+</body>
+</html>
